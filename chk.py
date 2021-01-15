@@ -4,14 +4,7 @@ appversion=2.0
 appname='Updater'
 space=' '
 appcversion=2
-
-
-
-
-
-
 print(str(appname)+str(space)+str(appversion))
-exit()
 print('Checking Version')
 os.system('wget https://raw.githubusercontent.com/mojeg/test/main/versionchk -q')
 f=open('versionchk','r')
