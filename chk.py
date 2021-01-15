@@ -15,7 +15,7 @@ if int(f) > int(appcversion):
   print('Creating Backup')
   os.system('cp chk.py chk.py.bk')
   os.system('rm versionchk')
-  os.system('wget https://raw.githubusercontent.com/mojeg/test/main/versionchk --output-document=chk.py')
+  os.system('wget https://raw.githubusercontent.com/mojeg/test/main/chk.py --output-document=chk.py')
   os.system('python3 chk.py')
 else:
   print('No updates UTD')
